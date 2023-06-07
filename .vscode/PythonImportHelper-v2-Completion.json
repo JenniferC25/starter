@@ -1,0 +1,161 @@
+[
+    {
+        "label": "Conta",
+        "importPath": "Conta",
+        "description": "Conta",
+        "isExtraImport": true,
+        "detail": "Conta",
+        "documentation": {}
+    },
+    {
+        "label": "Conta",
+        "importPath": "Conta",
+        "description": "Conta",
+        "isExtraImport": true,
+        "detail": "Conta",
+        "documentation": {}
+    },
+    {
+        "label": "Conta",
+        "importPath": "Conta",
+        "description": "Conta",
+        "isExtraImport": true,
+        "detail": "Conta",
+        "documentation": {}
+    },
+    {
+        "label": "Conta",
+        "kind": 6,
+        "importPath": "01.Conta",
+        "description": "01.Conta",
+        "peekOfCode": "class Conta:\n    def __init__(self):\n        print(f\"Imprimindo variável de referência >>> {self}\")\n        self.numero = int\n        self.titular = str\n        self.cpf = str\n        self.saldo = float\n        self.limite = float",
+        "detail": "01.Conta",
+        "documentation": {}
+    },
+    {
+        "label": "usar",
+        "kind": 5,
+        "importPath": "01.main",
+        "description": "01.main",
+        "peekOfCode": "usar = Conta()\nusar.numero = 47991211512\nusar.titular = \"Gian\"\nusar.cpf = \"123456789\"\nusar.saldo = 1500.00\nusar.limite = 3000.00\nprint(usar.numero)\nprint(usar.titular)\nprint(usar.cpf)\nprint(usar.saldo)",
+        "detail": "01.main",
+        "documentation": {}
+    },
+    {
+        "label": "usar.numero",
+        "kind": 5,
+        "importPath": "01.main",
+        "description": "01.main",
+        "peekOfCode": "usar.numero = 47991211512\nusar.titular = \"Gian\"\nusar.cpf = \"123456789\"\nusar.saldo = 1500.00\nusar.limite = 3000.00\nprint(usar.numero)\nprint(usar.titular)\nprint(usar.cpf)\nprint(usar.saldo)\nprint(usar.saldo)",
+        "detail": "01.main",
+        "documentation": {}
+    },
+    {
+        "label": "usar.titular",
+        "kind": 5,
+        "importPath": "01.main",
+        "description": "01.main",
+        "peekOfCode": "usar.titular = \"Gian\"\nusar.cpf = \"123456789\"\nusar.saldo = 1500.00\nusar.limite = 3000.00\nprint(usar.numero)\nprint(usar.titular)\nprint(usar.cpf)\nprint(usar.saldo)\nprint(usar.saldo)\nprint(usar.limite)",
+        "detail": "01.main",
+        "documentation": {}
+    },
+    {
+        "label": "usar.cpf",
+        "kind": 5,
+        "importPath": "01.main",
+        "description": "01.main",
+        "peekOfCode": "usar.cpf = \"123456789\"\nusar.saldo = 1500.00\nusar.limite = 3000.00\nprint(usar.numero)\nprint(usar.titular)\nprint(usar.cpf)\nprint(usar.saldo)\nprint(usar.saldo)\nprint(usar.limite)",
+        "detail": "01.main",
+        "documentation": {}
+    },
+    {
+        "label": "usar.saldo",
+        "kind": 5,
+        "importPath": "01.main",
+        "description": "01.main",
+        "peekOfCode": "usar.saldo = 1500.00\nusar.limite = 3000.00\nprint(usar.numero)\nprint(usar.titular)\nprint(usar.cpf)\nprint(usar.saldo)\nprint(usar.saldo)\nprint(usar.limite)",
+        "detail": "01.main",
+        "documentation": {}
+    },
+    {
+        "label": "usar.limite",
+        "kind": 5,
+        "importPath": "01.main",
+        "description": "01.main",
+        "peekOfCode": "usar.limite = 3000.00\nprint(usar.numero)\nprint(usar.titular)\nprint(usar.cpf)\nprint(usar.saldo)\nprint(usar.saldo)\nprint(usar.limite)",
+        "detail": "01.main",
+        "documentation": {}
+    },
+    {
+        "label": "Conta",
+        "kind": 6,
+        "importPath": "02.Conta",
+        "description": "02.Conta",
+        "peekOfCode": "class Conta:\n    titular : str\n    numero : int\n    saldo : float\n    limite : float\n    def __str__(self):\n        return f'{self.titular} - {self.numero} - {self.saldo} - {self.limite}'",
+        "detail": "02.Conta",
+        "documentation": {}
+    },
+    {
+        "label": "usar",
+        "kind": 5,
+        "importPath": "02.main",
+        "description": "02.main",
+        "peekOfCode": "usar = Conta()\nusar.numero = 47991211512\nusar.titular = \"Gian\"\nusar.saldo = 1500.00\nusar.limite = 3000.00\nprint(usar)",
+        "detail": "02.main",
+        "documentation": {}
+    },
+    {
+        "label": "usar.numero",
+        "kind": 5,
+        "importPath": "02.main",
+        "description": "02.main",
+        "peekOfCode": "usar.numero = 47991211512\nusar.titular = \"Gian\"\nusar.saldo = 1500.00\nusar.limite = 3000.00\nprint(usar)",
+        "detail": "02.main",
+        "documentation": {}
+    },
+    {
+        "label": "usar.titular",
+        "kind": 5,
+        "importPath": "02.main",
+        "description": "02.main",
+        "peekOfCode": "usar.titular = \"Gian\"\nusar.saldo = 1500.00\nusar.limite = 3000.00\nprint(usar)",
+        "detail": "02.main",
+        "documentation": {}
+    },
+    {
+        "label": "usar.saldo",
+        "kind": 5,
+        "importPath": "02.main",
+        "description": "02.main",
+        "peekOfCode": "usar.saldo = 1500.00\nusar.limite = 3000.00\nprint(usar)",
+        "detail": "02.main",
+        "documentation": {}
+    },
+    {
+        "label": "usar.limite",
+        "kind": 5,
+        "importPath": "02.main",
+        "description": "02.main",
+        "peekOfCode": "usar.limite = 3000.00\nprint(usar)",
+        "detail": "02.main",
+        "documentation": {}
+    },
+    {
+        "label": "Conta",
+        "kind": 6,
+        "importPath": "03.Conta",
+        "description": "03.Conta",
+        "peekOfCode": "class Conta:\n    def __init__(self, numero, titular, cpf, saldo, limite):\n        self.numero : int = numero\n        self.titular : str = titular\n        self.cpf : str = cpf\n        self.saldo : float = saldo\n        self.limite : float = limite\n    def __str__(self):\n        return f'{self.numero} - {self.titular} - {self.cpf} - {self.saldo} - {self.limite}'",
+        "detail": "03.Conta",
+        "documentation": {}
+    },
+    {
+        "label": "usar",
+        "kind": 5,
+        "importPath": "03.main",
+        "description": "03.main",
+        "peekOfCode": "usar = Conta(123, \"Gian\", \"123456789\", 1500.00, 3000.00)\nprint(usar)",
+        "detail": "03.main",
+        "documentation": {}
+    }
+]
