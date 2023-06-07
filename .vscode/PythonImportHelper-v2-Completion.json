@@ -24,6 +24,30 @@
         "documentation": {}
     },
     {
+        "label": "Pessoa1",
+        "importPath": "pessoa1",
+        "description": "pessoa1",
+        "isExtraImport": true,
+        "detail": "pessoa1",
+        "documentation": {}
+    },
+    {
+        "label": "Pessoa2",
+        "importPath": "pessoa2",
+        "description": "pessoa2",
+        "isExtraImport": true,
+        "detail": "pessoa2",
+        "documentation": {}
+    },
+    {
+        "label": "Pessoa3",
+        "importPath": "pessoa3",
+        "description": "pessoa3",
+        "isExtraImport": true,
+        "detail": "pessoa3",
+        "documentation": {}
+    },
+    {
         "label": "Conta",
         "kind": 6,
         "importPath": "01.Conta",
@@ -156,6 +180,168 @@
         "description": "03.main",
         "peekOfCode": "usar = Conta(123, \"Gian\", \"123456789\", 1500.00, 3000.00)\nprint(usar)",
         "detail": "03.main",
+        "documentation": {}
+    },
+    {
+        "label": "abacate",
+        "kind": 5,
+        "importPath": "04.main",
+        "description": "04.main",
+        "peekOfCode": "abacate = Pessoa1 (\n                   input (\"Digite seu nome:>>\"),\n                   input('Digite seu sobrenome:>>'),\n                   input('Digite sua idade:>>'),\n                   input('Digite seu peso:>>'),\n                   input('Digite seu cpf:>>'),\n                   input('Digite sua Altura:>>')\n                   )\nlaranja = Pessoa2()\nmoranguinho = Pessoa3()",
+        "detail": "04.main",
+        "documentation": {}
+    },
+    {
+        "label": "laranja",
+        "kind": 5,
+        "importPath": "04.main",
+        "description": "04.main",
+        "peekOfCode": "laranja = Pessoa2()\nmoranguinho = Pessoa3()\nlaranja.Nome = abacate.Nome\nlaranja.Sobrenome = abacate.Sobrenome\nlaranja.Idade = abacate.Idade\nlaranja.Peso = abacate.Peso\nlaranja.Cpf = abacate.Cpf\nlaranja.Altura = abacate.Altura\nmoranguinho.Nome = laranja.Nome\nmoranguinho.Sobrenome = laranja.Sobrenome",
+        "detail": "04.main",
+        "documentation": {}
+    },
+    {
+        "label": "moranguinho",
+        "kind": 5,
+        "importPath": "04.main",
+        "description": "04.main",
+        "peekOfCode": "moranguinho = Pessoa3()\nlaranja.Nome = abacate.Nome\nlaranja.Sobrenome = abacate.Sobrenome\nlaranja.Idade = abacate.Idade\nlaranja.Peso = abacate.Peso\nlaranja.Cpf = abacate.Cpf\nlaranja.Altura = abacate.Altura\nmoranguinho.Nome = laranja.Nome\nmoranguinho.Sobrenome = laranja.Sobrenome\nmoranguinho.Idade = laranja.Idade",
+        "detail": "04.main",
+        "documentation": {}
+    },
+    {
+        "label": "laranja.Nome",
+        "kind": 5,
+        "importPath": "04.main",
+        "description": "04.main",
+        "peekOfCode": "laranja.Nome = abacate.Nome\nlaranja.Sobrenome = abacate.Sobrenome\nlaranja.Idade = abacate.Idade\nlaranja.Peso = abacate.Peso\nlaranja.Cpf = abacate.Cpf\nlaranja.Altura = abacate.Altura\nmoranguinho.Nome = laranja.Nome\nmoranguinho.Sobrenome = laranja.Sobrenome\nmoranguinho.Idade = laranja.Idade\nmoranguinho.Peso = laranja.Peso",
+        "detail": "04.main",
+        "documentation": {}
+    },
+    {
+        "label": "laranja.Sobrenome",
+        "kind": 5,
+        "importPath": "04.main",
+        "description": "04.main",
+        "peekOfCode": "laranja.Sobrenome = abacate.Sobrenome\nlaranja.Idade = abacate.Idade\nlaranja.Peso = abacate.Peso\nlaranja.Cpf = abacate.Cpf\nlaranja.Altura = abacate.Altura\nmoranguinho.Nome = laranja.Nome\nmoranguinho.Sobrenome = laranja.Sobrenome\nmoranguinho.Idade = laranja.Idade\nmoranguinho.Peso = laranja.Peso\nmoranguinho.Cpf = laranja.Cpf",
+        "detail": "04.main",
+        "documentation": {}
+    },
+    {
+        "label": "laranja.Idade",
+        "kind": 5,
+        "importPath": "04.main",
+        "description": "04.main",
+        "peekOfCode": "laranja.Idade = abacate.Idade\nlaranja.Peso = abacate.Peso\nlaranja.Cpf = abacate.Cpf\nlaranja.Altura = abacate.Altura\nmoranguinho.Nome = laranja.Nome\nmoranguinho.Sobrenome = laranja.Sobrenome\nmoranguinho.Idade = laranja.Idade\nmoranguinho.Peso = laranja.Peso\nmoranguinho.Cpf = laranja.Cpf\nmoranguinho.Altura = laranja.Altura",
+        "detail": "04.main",
+        "documentation": {}
+    },
+    {
+        "label": "laranja.Peso",
+        "kind": 5,
+        "importPath": "04.main",
+        "description": "04.main",
+        "peekOfCode": "laranja.Peso = abacate.Peso\nlaranja.Cpf = abacate.Cpf\nlaranja.Altura = abacate.Altura\nmoranguinho.Nome = laranja.Nome\nmoranguinho.Sobrenome = laranja.Sobrenome\nmoranguinho.Idade = laranja.Idade\nmoranguinho.Peso = laranja.Peso\nmoranguinho.Cpf = laranja.Cpf\nmoranguinho.Altura = laranja.Altura\nprint(moranguinho)",
+        "detail": "04.main",
+        "documentation": {}
+    },
+    {
+        "label": "laranja.Cpf",
+        "kind": 5,
+        "importPath": "04.main",
+        "description": "04.main",
+        "peekOfCode": "laranja.Cpf = abacate.Cpf\nlaranja.Altura = abacate.Altura\nmoranguinho.Nome = laranja.Nome\nmoranguinho.Sobrenome = laranja.Sobrenome\nmoranguinho.Idade = laranja.Idade\nmoranguinho.Peso = laranja.Peso\nmoranguinho.Cpf = laranja.Cpf\nmoranguinho.Altura = laranja.Altura\nprint(moranguinho)",
+        "detail": "04.main",
+        "documentation": {}
+    },
+    {
+        "label": "laranja.Altura",
+        "kind": 5,
+        "importPath": "04.main",
+        "description": "04.main",
+        "peekOfCode": "laranja.Altura = abacate.Altura\nmoranguinho.Nome = laranja.Nome\nmoranguinho.Sobrenome = laranja.Sobrenome\nmoranguinho.Idade = laranja.Idade\nmoranguinho.Peso = laranja.Peso\nmoranguinho.Cpf = laranja.Cpf\nmoranguinho.Altura = laranja.Altura\nprint(moranguinho)",
+        "detail": "04.main",
+        "documentation": {}
+    },
+    {
+        "label": "moranguinho.Nome",
+        "kind": 5,
+        "importPath": "04.main",
+        "description": "04.main",
+        "peekOfCode": "moranguinho.Nome = laranja.Nome\nmoranguinho.Sobrenome = laranja.Sobrenome\nmoranguinho.Idade = laranja.Idade\nmoranguinho.Peso = laranja.Peso\nmoranguinho.Cpf = laranja.Cpf\nmoranguinho.Altura = laranja.Altura\nprint(moranguinho)",
+        "detail": "04.main",
+        "documentation": {}
+    },
+    {
+        "label": "moranguinho.Sobrenome",
+        "kind": 5,
+        "importPath": "04.main",
+        "description": "04.main",
+        "peekOfCode": "moranguinho.Sobrenome = laranja.Sobrenome\nmoranguinho.Idade = laranja.Idade\nmoranguinho.Peso = laranja.Peso\nmoranguinho.Cpf = laranja.Cpf\nmoranguinho.Altura = laranja.Altura\nprint(moranguinho)",
+        "detail": "04.main",
+        "documentation": {}
+    },
+    {
+        "label": "moranguinho.Idade",
+        "kind": 5,
+        "importPath": "04.main",
+        "description": "04.main",
+        "peekOfCode": "moranguinho.Idade = laranja.Idade\nmoranguinho.Peso = laranja.Peso\nmoranguinho.Cpf = laranja.Cpf\nmoranguinho.Altura = laranja.Altura\nprint(moranguinho)",
+        "detail": "04.main",
+        "documentation": {}
+    },
+    {
+        "label": "moranguinho.Peso",
+        "kind": 5,
+        "importPath": "04.main",
+        "description": "04.main",
+        "peekOfCode": "moranguinho.Peso = laranja.Peso\nmoranguinho.Cpf = laranja.Cpf\nmoranguinho.Altura = laranja.Altura\nprint(moranguinho)",
+        "detail": "04.main",
+        "documentation": {}
+    },
+    {
+        "label": "moranguinho.Cpf",
+        "kind": 5,
+        "importPath": "04.main",
+        "description": "04.main",
+        "peekOfCode": "moranguinho.Cpf = laranja.Cpf\nmoranguinho.Altura = laranja.Altura\nprint(moranguinho)",
+        "detail": "04.main",
+        "documentation": {}
+    },
+    {
+        "label": "moranguinho.Altura",
+        "kind": 5,
+        "importPath": "04.main",
+        "description": "04.main",
+        "peekOfCode": "moranguinho.Altura = laranja.Altura\nprint(moranguinho)",
+        "detail": "04.main",
+        "documentation": {}
+    },
+    {
+        "label": "Pessoa1",
+        "kind": 6,
+        "importPath": "04.pessoa1",
+        "description": "04.pessoa1",
+        "peekOfCode": "class Pessoa1:\n    def __init__(self, nome, sobrenome, idade, peso) :\n        self.Nome : str = nome\n        self.Sobrenome : str = sobrenome\n        self.Idade : int = idade\n        self.Peso : float = peso",
+        "detail": "04.pessoa1",
+        "documentation": {}
+    },
+    {
+        "label": "Pessoa2",
+        "kind": 6,
+        "importPath": "04.pessoa2",
+        "description": "04.pessoa2",
+        "peekOfCode": "class Pessoa2:\n    def __init__(self) :\n        self.Sobrenome : str \n        self.Peso : float \n        self.Nome : str \n        self.Idade : int",
+        "detail": "04.pessoa2",
+        "documentation": {}
+    },
+    {
+        "label": "Pessoa3",
+        "kind": 6,
+        "importPath": "04.pessoa3",
+        "description": "04.pessoa3",
+        "peekOfCode": "class Pessoa3:\n    def __init__(self, nome, sobrenome, peso, idade) :\n        self.Sobrenome : str = sobrenome\n        self.Peso : float = peso \n        self.Nome : str = nome\n        self.Idade : int = idade\n    def __str__(self) :\n        return f'{self.Nome} {self.Sobrenome} {self.Peso} {self.Idade}'",
+        "detail": "04.pessoa3",
         "documentation": {}
     }
 ]
